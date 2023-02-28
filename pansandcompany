@@ -1,0 +1,552 @@
+var markers = [];
+
+                                            var marker0 = new google.maps.Marker({
+                      title: 'PC RSC SANT CUGAT - Alcalde Barnils 64-68, Edif. B - Bajos - Sant Cugat Del Valles - Tlf: 935442874',
+                      position: new google.maps.LatLng(41.4925300,2.0774300),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker1 = new google.maps.Marker({
+                      title: 'PC PORTAL ANGEL - Portal De L&#039;Angel, 2 - Barcelona - Tlf: 933189432',
+                      position: new google.maps.LatLng(41.3848204,2.1742730),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker2 = new google.maps.Marker({
+                      title: 'PC SAN JAIME - Pl. Sant Jaume, 6 - Barcelona - Tlf: 933151606',
+                      position: new google.maps.LatLng(41.3829160,2.1771800),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker3 = new google.maps.Marker({
+                      title: 'PC EL ROSAL - Cc El Rosal, Local 222 - Av.Constitución, 2 - Ponferrada - Tlf: 616066635',
+                      position: new google.maps.LatLng(42.5554869,-6.6038030),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker4 = new google.maps.Marker({
+                      title: 'PC PERE MARTELL - Pere Martell, 1 - Tarragona - Tlf: 977216606',
+                      position: new google.maps.LatLng(41.1168660,1.2444560),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker5 = new google.maps.Marker({
+                      title: 'PC URQUINAONA - Plaça Urquinaona, 12-13 - Barcelona - Tlf: 933188273',
+                      position: new google.maps.LatLng(41.3885400,2.1725100),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker6 = new google.maps.Marker({
+                      title: 'PC CANALETES - Rambla De Canaletes, 123 - Barcelona - Tlf: 933016621',
+                      position: new google.maps.LatLng(41.3846470,2.1704190),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker7 = new google.maps.Marker({
+                      title: 'PC FSU SABADELL - Serra Dels Galliners Nº 57 - Sabadell - Tlf: 935769259',
+                      position: new google.maps.LatLng(41.5114900,2.1060800),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker8 = new google.maps.Marker({
+                      title: 'PC MAQUINISTA - Cc La Maquinista, Loc. 16, Pl. Alta - Potosí, 2 - Barcelona - Tlf: 933608040',
+                      position: new google.maps.LatLng(41.4393882,2.1980111),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker9 = new google.maps.Marker({
+                      title: 'PC LARIOS - C.C. Larios, Loc. 903. Avda. De La Aurora, 25 - Malaga - Tlf: 952369042',
+                      position: new google.maps.LatLng(36.7160010,-4.4308890),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker10 = new google.maps.Marker({
+                      title: 'PC SANT BOI - Cc Alcampo, Parcela 12. - Feixars, 6 - Sant Boi De Llobregat - Tlf: 936523700',
+                      position: new google.maps.LatLng(41.3307900,2.0534600),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker11 = new google.maps.Marker({
+                      title: 'PC MALVARROSA - Pg. Marítim De La Malvarrosa, 13 - Valencia - Tlf: 963561671',
+                      position: new google.maps.LatLng(39.4855139,-0.3253899),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker12 = new google.maps.Marker({
+                      title: 'PC CAN DRAGO - Cc Can Dragó - P. Sant Andreu Nin, S/N.  - Barcelona - Tlf: 932762438',
+                      position: new google.maps.LatLng(41.4352198,2.1814987),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker13 = new google.maps.Marker({
+                      title: 'PC GRAN VIA PEDROSA - Cc Gran Vía 2, Pl. Alta - Av. Gran Vía, 70 - Hospitalet De Llobregat, L&#039; - Tlf: 932590084',
+                      position: new google.maps.LatLng(41.3587104,2.1302027),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker14 = new google.maps.Marker({
+                      title: 'PC RONDA SAN ANTONIO - Ronda Sant Antoni, 90 - Barcelona - Tlf: 933187804',
+                      position: new google.maps.LatLng(41.3845500,2.1640000),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker15 = new google.maps.Marker({
+                      title: 'PC MONTIGALA - Cc Montigalà, Loc. 58. Paseo Olof Palme, 28-36 - Badalona - Tlf: 931182085',
+                      position: new google.maps.LatLng(41.4570000,2.2278500),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker16 = new google.maps.Marker({
+                      title: 'PC PARALELO - Avda. Paralelo, 65 - Barcelona - Tlf: 933293354',
+                      position: new google.maps.LatLng(41.3748060,2.1697180),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker17 = new google.maps.Marker({
+                      title: 'PC PLENILUNIO - Cc Plenilunio, Planta Alta - C/ Aracne, 3 - Madrid - Tlf: 910299122',
+                      position: new google.maps.LatLng(40.4469408,-3.5872670),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker18 = new google.maps.Marker({
+                      title: 'PC PRINCIPE PIO - Cc. Príncipe Pío, Loc G50 Y F4b - P. De La Florida, 2 - Madrid - Tlf: 915470236',
+                      position: new google.maps.LatLng(40.4225800,-3.7209100),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker19 = new google.maps.Marker({
+                      title: 'PC PLAZA MAYOR MALAGA - Cc Plaza Mayor, Loc.63 - C/ Alfonso Ponce, 3 - Malaga - Tlf: 630377701',
+                      position: new google.maps.LatLng(36.6568000,-4.4789000),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker20 = new google.maps.Marker({
+                      title: 'PC SANT JOSEP - Rbla. Sant Josep, 84 - Barcelona - Tlf: 933175433',
+                      position: new google.maps.LatLng(41.3815550,2.1730770),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker21 = new google.maps.Marker({
+                      title: 'PC GRANVIA 1 - Gran Vía, 30 - Madrid - Tlf: 915326510',
+                      position: new google.maps.LatLng(40.4202546,-3.7026608),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker22 = new google.maps.Marker({
+                      title: 'PC RUZAFA - Paseo Ruzafa, 5 - Valencia - Tlf: 963510709',
+                      position: new google.maps.LatLng(39.4683818,-0.3752755),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker23 = new google.maps.Marker({
+                      title: 'PC ILLA DIAGONAL - Cc Illa Diagonal, Local 36 - Av. Diagonal, 557 - Barcelona - Tlf: 934108089',
+                      position: new google.maps.LatLng(41.3897966,2.1355064),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker24 = new google.maps.Marker({
+                      title: 'PC MAREMAGNUM - Cc Maremagnum, Local 5c - Moll D&#039;Espanya S/N - Barcelona - Tlf: 932258066',
+                      position: new google.maps.LatLng(41.3758091,2.1831262),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker25 = new google.maps.Marker({
+                      title: 'PC SANT CUGAT CENTRE - Cc Sant Cugat Centre. Ctra. De Rubí A Sant Cugat Km4 - Sant Cugat Del Valles - Tlf: 936745402',
+                      position: new google.maps.LatLng(41.4835889,2.0532542),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker26 = new google.maps.Marker({
+                      title: 'PC NUMANCIA - Plaça De La Volta Ciclista A Catalunya, 1. - Barcelona - Tlf: 934192563',
+                      position: new google.maps.LatLng(41.3807910,2.1421128),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker27 = new google.maps.Marker({
+                      title: 'PC ABRERA - Cc.Montserrat, Local 2. C/Hostal Del Pi, 4-6 - Abrera - Tlf: 937701656',
+                      position: new google.maps.LatLng(41.5071011,1.9026606),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker28 = new google.maps.Marker({
+                      title: 'PC PARQUE SUR 1 - Cc Parquesur, Local 7-8-9. Av. Gran Bretaña, S/N - Leganes - Tlf: 916807198',
+                      position: new google.maps.LatLng(40.3399600,-3.7339884),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker29 = new google.maps.Marker({
+                      title: 'PC PARQUE ASTUR - Cc Parque Astur, Local 3 - Avilés Sector 5-2 - Pedrero (Corvera) - Tlf: 985574390',
+                      position: new google.maps.LatLng(43.5596120,-5.9057330),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker30 = new google.maps.Marker({
+                      title: 'PC MAGIC BADALONA - Cc Magic, Local A02 - Av. Concordia 1-5 - Badalona - Tlf: 932245613',
+                      position: new google.maps.LatLng(41.4432300,2.2303100),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker31 = new google.maps.Marker({
+                      title: 'PC GAUDI - Avda. Gaudi, 58 - Barcelona - Tlf: 932526035',
+                      position: new google.maps.LatLng(41.4091088,2.1745367),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker32 = new google.maps.Marker({
+                      title: 'PC KINEPOLIS GRANADA - Cc Kinepolis, Loc.25 - C/ Blvd. Billy Wilder, S/N - Pulianas - Tlf: 628440408',
+                      position: new google.maps.LatLng(37.2142500,-3.6174800),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker33 = new google.maps.Marker({
+                      title: 'PC AS CANCELAS - Cc As Cancelas, Pl.2 - Loc 2.19 - Av. Do Camiño Francés, 3 - Santiago De Compostela - Tlf: 981576973',
+                      position: new google.maps.LatLng(42.8884700,-8.5267400),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker34 = new google.maps.Marker({
+                      title: 'PC ONDARA - Cc Portal De La Marina, Loc. A11 - Av. Costa Blanca, 1 - Ondara - Tlf: 966477438',
+                      position: new google.maps.LatLng(38.8176300,0.0226400),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker35 = new google.maps.Marker({
+                      title: 'PC VILLARROEL - C/ Villarroel, 177-179 - Barcelona - Tlf: 934548928',
+                      position: new google.maps.LatLng(41.3887500,2.1520800),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker36 = new google.maps.Marker({
+                      title: 'PC CARCAIXENT - Cc Ribera Del Xúquer, L.A12 - Av. Bressol De La Taronja S/N - Carcaixent - Tlf: 962431535',
+                      position: new google.maps.LatLng(39.1267500,-0.4446200),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker37 = new google.maps.Marker({
+                      title: 'PC LA VITAL - Cc La Vital, Loc.17 - Av. La Vital, 10 - Gandia - Tlf: 962881114',
+                      position: new google.maps.LatLng(38.9685200,-0.1689700),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker38 = new google.maps.Marker({
+                      title: 'PC XATIVA - Cc Plaza Mayor,  Loc. 34 - Ctra. Llosa De Ranes, S/N - Xativa - Tlf: 962259229',
+                      position: new google.maps.LatLng(39.0035300,-0.5278200),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker39 = new google.maps.Marker({
+                      title: 'PC BARICENTRO - Cc Baricentro, Planta 1 - Ctra. Nacional 150, Km. 6,7 - Barbera Del Valles - Tlf: 937185000',
+                      position: new google.maps.LatLng(41.5087300,2.1377100),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker40 = new google.maps.Marker({
+                      title: 'PC TAJO - C/ Tajo 37-43 - Barcelona - Tlf: 934292285',
+                      position: new google.maps.LatLng(41.4297180,2.1615960),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker41 = new google.maps.Marker({
+                      title: 'PC FARO DEL GUADIANA - Cc Faro Del Guadiana, Loc. R2-Tr2+R3-Tr3 - Av. Elvas S/N - Badajoz - Tlf: 924266868',
+                      position: new google.maps.LatLng(38.8851900,-7.0214900),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker42 = new google.maps.Marker({
+                      title: 'PC PUERTO VENECIA - Cc Puerto Venecia, P1 Local 185 -  Av. Puerto Venecia S/N - Zaragoza - Tlf: 976266924',
+                      position: new google.maps.LatLng(41.6103000,-0.8880000),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker43 = new google.maps.Marker({
+                      title: 'PC VALLSUR - Cc Vallsur, Loc. 13-14 Pl.2 - Paseo De Zorrilla, 328 - Valladolid - Tlf: 983226468',
+                      position: new google.maps.LatLng(41.6235200,-4.7506900),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker44 = new google.maps.Marker({
+                      title: 'PC ILLA CARLEMANY - Centro Comercial Illa Carlemany - Escaldes-Engordany - Tlf: 00376875500',
+                      position: new google.maps.LatLng(42.5086800,1.5350500),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker45 = new google.maps.Marker({
+                      title: 'PC ITAROA - Cc Itaroa Loc A-13,A-14,A-15 - Av. Intxaurdia, 5 - Huarte - Tlf: 635139836',
+                      position: new google.maps.LatLng(42.8285760,-1.5841110),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker46 = new google.maps.Marker({
+                      title: 'PC EL ARCANGEL - Cc El Arcángel, Pl Baja - Avenida Del Arcángel S/N - Cordoba - Tlf: 957280455',
+                      position: new google.maps.LatLng(37.8781600,-4.7668100),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker47 = new google.maps.Marker({
+                      title: 'PC ALFONSO I - C/ Alfonso I, 17 - Zaragoza - Tlf: 876285982',
+                      position: new google.maps.LatLng(41.6538300,-0.8815299),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker48 = new google.maps.Marker({
+                      title: 'PC EL TORMES - Cc El Tormes, Loc.13 - Av. Salamanca S/N - Santa Marta De Tormes - Tlf: 923201754',
+                      position: new google.maps.LatLng(40.9488400,-5.6512200),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker49 = new google.maps.Marker({
+                      title: 'PC CASTELLÓN - C/ Mayor 28 - Castellon/Castello - Tlf: 964260207',
+                      position: new google.maps.LatLng(39.9848240,-0.0370720),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker50 = new google.maps.Marker({
+                      title: 'PC RUTA DE LA PLATA - Cc Ruta De La Plata, Locales 1-2 - C/ Londres S/N - Caceres - Tlf: 927238673',
+                      position: new google.maps.LatLng(39.4680500,-6.3896100),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker51 = new google.maps.Marker({
+                      title: 'PC MANRESA - Complex &quot;Cines Del Bagès&quot;, Loc. 1 - Pg. Els Trullols S/N - Manresa - Tlf: ',
+                      position: new google.maps.LatLng(41.7226400,1.8452300),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker52 = new google.maps.Marker({
+                      title: 'PC ROSES - Cinemes A. Roses - Gran Vía, S/N - Roses - Tlf: 972253308',
+                      position: new google.maps.LatLng(42.2674580,3.1758320),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker53 = new google.maps.Marker({
+                      title: 'PC LEON - C/ Ancha, 13 - Leon - Tlf: 987264174',
+                      position: new google.maps.LatLng(42.5984200,-5.5693800),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker54 = new google.maps.Marker({
+                      title: 'PC EL BOULEVARD AVILA - Cc Bulevar, Loc. 3-4 - Av Juan Carlos I, 45 - Avila - Tlf: 920219804',
+                      position: new google.maps.LatLng(40.6692400,-4.6603300),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker55 = new google.maps.Marker({
+                      title: 'PC PUIGCERDA - C/ Major, 20 - Puigcerda - Tlf: 972880484',
+                      position: new google.maps.LatLng(42.4318800,1.9271900),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker56 = new google.maps.Marker({
+                      title: 'PC PRIOR - C/ Prior. Nº 3, Bajo - Salamanca - Tlf: 923269786',
+                      position: new google.maps.LatLng(40.9649900,-5.6648500),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker57 = new google.maps.Marker({
+                      title: 'PC SITGES 1 - Pg. De La Ribera,43 - Sitges - Tlf: 938943441',
+                      position: new google.maps.LatLng(41.2348200,1.8071100),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker58 = new google.maps.Marker({
+                      title: 'PC GRAN TURIA - Cc Gran Turia - Pz Europa, S/N - Xirivella - Tlf: 657692226',
+                      position: new google.maps.LatLng(39.4651200,-0.4141100),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker59 = new google.maps.Marker({
+                      title: 'PC SANTS - Passeig De Sant Antoni, 1 - Barcelona - Tlf: 937127862',
+                      position: new google.maps.LatLng(41.3759570,2.1360242),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                                                                            var marker61 = new google.maps.Marker({
+                      title: 'PC AER MAH AIRE - Aeropuerto Menorca, Zona Aire, Crta. San Clemente, S/N - Mao - Tlf: 971157017',
+                      position: new google.maps.LatLng(39.8624250,4.2200360),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker62 = new google.maps.Marker({
+                      title: 'PC AVE LLEIDA - Est. Adif Lleida-Pirineus - Plaça Berenguer Iv, 4 - Lleida - Tlf: 973104907',
+                      position: new google.maps.LatLng(41.6206880,0.6326150),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker63 = new google.maps.Marker({
+                      title: 'PC AER LAN T1 AIRE - Aeropuerto De Lanzarote - Embarques T1 - San Bartolome (Lanzarote) - Tlf: 928821950',
+                      position: new google.maps.LatLng(28.4511620,-13.8697320),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker64 = new google.maps.Marker({
+                      title: 'PC AER LPA AIRE P0 - Aeropuerto De G.Canaria - Embarques Insulares - Aeropuerto De Gando - Tlf: 928043889',
+                      position: new google.maps.LatLng(27.9580000,-15.6062300),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker65 = new google.maps.Marker({
+                      title: 'PC AVE GIRONA - Estación Adif Girona - Plaça Espanya, S/N  - Girona - Tlf: 972090092',
+                      position: new google.maps.LatLng(41.9790890,2.8171460),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker66 = new google.maps.Marker({
+                      title: 'PC LAGOH - Cc Lagoh, Local Rb03. Av. Palmas Altas S/N - Sevilla - Tlf: 854539636',
+                      position: new google.maps.LatLng(37.3424710,-5.9876870),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker67 = new google.maps.Marker({
+                      title: 'PC SIERRA NEVADA - Pz. De Andalucía, Ed. Montabajo, Loc. 10 - Sierra Nevada - Tlf: 670350055',
+                      position: new google.maps.LatLng(37.0943800,-3.3983400),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker68 = new google.maps.Marker({
+                      title: 'PC TRES AGUAS - Cc Tres Aguas, Pl.Baja - Av. San Martín De Valdeiglesias, 20 - Alcorcon - Tlf: 910259623',
+                      position: new google.maps.LatLng(40.3581900,-3.8311800),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    });
+            
+
+                                                                      var marker69 = new google.maps.Marker({
+                      title: 'PC EL SALER - Cc El Saler, Crta El Saler 16 - Valencia - Tlf: 960717742',
+                      position: new google.maps.LatLng(39.4527090,-0.3559950),
+                      map: map,
+                      icon: '/bundles/pans/images/location.png'
+                    })
